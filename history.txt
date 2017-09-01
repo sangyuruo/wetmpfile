@@ -1,0 +1,150 @@
+    1  git clone sj:sangj2017@https://www.wamoli.cn/wamoli/
+    2  git clone https://sj:sangj2017@www.wamoli.cn/wamoli/
+    3  set GIT_SSL_NO_VERIFY=true
+    4  git clone https://sj:sangj2017@www.wamoli.cn/wamoli/
+    5  set GIT_SSL_NO_VERIFY=true git clone
+    6  git clone https://sj:sangj2017@www.wamoli.cn/wamoli/
+    7  git config --global http.sslVerify false
+    8  git clone https://sj:sangj2017@www.wamoli.cn/wamoli/
+    9  git config --global user.name sj
+   10  git clone https://www.wamoli.cn/wamoli/
+   11  git clone https://github.com/MyCATApache/Mycat-Server.git
+   12  git branch
+   13  git branchs
+   14  cd Mycat-Server/
+   15  git branch
+   16  git checkout 1.5
+   17  git branch
+   18  echo "# wetmpfile" >> README.md
+   19  git init
+   20  git add README.md
+   21  git commit -m "first commit"
+   22  git remote add origin git@github.com:sangyuruo/wetmpfile.git
+   23  git push -u origin master
+   24  git config --global user.name sangjun
+   25  git config --global user.email sangyuruo@gmail.com
+   26  git commit -m "first commit"
+   27  git remote add origin git@github.com:sangyuruo/wetmpfile.git
+   28  git push -u origin master
+   29  cd ~/.ssh
+   30  ls
+   31  ls -al
+   32  ssh-keygen -t rsa -C "jun.sang@99bill.com"
+   33  ls
+   34  ls -al
+   35  git config --global user.email jun.sang@99bill.com
+   36  ssh-add id_rsa
+   37  eval `ssh-agent -s`
+   38  ssh-add id_rsa
+   39  vi id_rsa.pub 
+   40  cat id_rsa.pub 
+   41  ls
+   42  git push -u origin master
+   43  ls
+   44  cd e
+   45  pwd
+   46  cd /e
+   47  ls
+   48  cd git_work/
+   49  ls
+   50  cd wetmpfile/
+   51  git push -u origin master
+   52  git add .
+   53  ls
+   54  ls -al
+   55  git status
+   56  git add Rip_Jars.7z 
+   57  git add Rip_Applications.7z 
+   58  git commit -m 'add code'
+   59  git push origin master
+   60  ls -al
+   61  git add eclipse配置.7z 
+   62  git commit -m 'add format'
+   63  git push origin master
+   64  git status
+   65  git add rip_doc.7z 
+   66  git commit -m 'add format'
+   67  git push origin master
+   68  git status
+   69  git add "\350\207\252\345\212\250\345\214\226\346\265\213\350\257\225\345\271\263\345\217\260\346\223\215\344\275\234\346\214\207\345\215\227.zip"
+   70  git add *.zip
+   71  git status
+   72  git add *.xlsx
+   73  git commit -m 'add file'
+   74  git push origin master
+   75  ls
+   76  git status
+   77  git add .
+   78  git commit -m 'add docs'
+   79  git push origin master
+   80  git status
+   81  git add self_doc.7z 
+   82  git add .
+   83  ls
+   84  git status
+   85  git commit -m 'add doc'
+   86  git push origin master
+   87  git status
+   88  git log
+   89  git revert
+   90  git revert HEAD
+   91  ls
+   92  git status
+   93  ls -al
+   94  git log
+   95  cd ..
+   96  git clone git@github.com:sangyuruo/wetmpfile.git
+   97  mkdir tmp
+   98  cd tmp
+   99  git clone git@github.com:sangyuruo/wetmpfile.git
+  100  cd ..
+  101  cd wetmpfile/
+  102  ls
+  103  git reset HEAD
+  104  ls
+  105  git status
+  106  git reset --soft HEAD
+  107  git status
+  108  git reset HEAD~1
+  109  git status
+  110  git reset HEAD~1
+  111  git status
+  112  git status
+  113  git reset HEAD~1
+  114  git status
+  115  git status
+  116  git add self_doc.7z 
+  117  git commit -m 'add doc'
+  118  git push origin master
+  119  git add wiki_2.7z 
+  120  git commit -m 'add wiki 1'
+  121  git push origin master
+  122  git status
+  123  git add wiki_0.7z 
+  124  git commit -m 'add wiki 0'
+  125  git push origin master
+  126  git add wiki_1.7z 
+  127  git commit -m 'add wiki 1'
+  128  git push origin master
+  129  git reset HEAD~1
+  130  git status
+  131  git status
+  132  git add other.7z 
+  133  git commit -m 'add other'
+  134  git push origin master
+  135  git status
+  136  git add jia1.7z 
+  137  git commit -m 'add jia1'
+  138  git push origin master
+  139  git status
+  140  git add jia2.7z 
+  141  git commit -m 'add jia2'
+  142  git push origin master
+  143  git status
+  144  git add .
+  145  git commit -m 'add sql'
+  146  git push origin master
+  147  git status
+  148  history 
+  149  :q!
+  150  history >> history.txt
